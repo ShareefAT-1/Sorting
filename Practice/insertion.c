@@ -23,3 +23,24 @@ int main()
         printf("%d",arr[i]);
     }
 }
+
+
+
+
+// int maxdigit(int arr[], int size)
+// {
+//     int digit = arr[0];
+//     for (int i = 0; i < size; i++)
+//     {
+//         if (digit < arr[i])
+//         {
+//             digit = arr[i];
+//         }
+//     }
+//     int value=sizeof(digit);
+//     for (int i = 1; i <= value; i++)
+//     {
+//         digit = i++;
+//     }
+//     return digit;
+// }
